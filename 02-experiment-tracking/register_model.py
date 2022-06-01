@@ -72,6 +72,7 @@ def run(data_path, log_top):
         order_by=["metrics.test_rmse ASC"]
     )
 
+    # retrieve the 'run_id' from the best run
     for run in best_run:
         for item in run.info:
             if item[0] == "run_id":
