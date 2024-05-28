@@ -1,6 +1,13 @@
 # Project-specific
 data/
 .python-version
+output/
+models/
+mlruns/
+artifacts_local/
+mlartifacts/
+backend.db
+mlflow.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
