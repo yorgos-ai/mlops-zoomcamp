@@ -1,0 +1,9 @@
+train_set:
+  object_type: pipeline
+  object_uuid: data_prep
+  outdated_after:
+    seconds: 700
+  project: homework_3
+  repo_path: /home/src/mlops/homework_3
+  settings:
+    train_data: {}

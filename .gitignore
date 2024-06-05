@@ -8,6 +8,10 @@ artifacts_local/
 mlartifacts/
 backend.db
 mlflow.db
+*.pickle
+
+# Week 3 - Mage related files
+Week_3/mlops/.file_versions
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
