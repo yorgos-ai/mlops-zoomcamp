@@ -1,8 +1,8 @@
 # Project-specific
 data/
 .python-version
-output/
-models/
+# output/
+# models/
 mlruns/
 artifacts_local/
 mlartifacts/
@@ -10,8 +10,22 @@ backend.db
 mlflow.db
 *.pickle
 
-# Week 3 - Mage related files
+# Week 2 related files
+Week_2/artifacts_local
+Week_2/mlartifacts
+Week_2/mlruns
+Week_2/models
+Week_2/output
+
+
+# Week 3 related files
 Week_3/mlops/.file_versions
+
+# Week 4 related files
+Week_4/output
+
+# Week 5 related files
+workspace/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
